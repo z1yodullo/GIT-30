@@ -177,8 +177,26 @@
   }
 }
 @layer utilities {
+  .relative {
+    position: relative;
+  }
   .start {
     inset-inline-start: var(--spacing);
+  }
+  .-top-\[30px\] {
+    top: calc(30px * -1);
+  }
+  .-top-\[40px\] {
+    top: calc(40px * -1);
+  }
+  .-top-\[50px\] {
+    top: calc(50px * -1);
+  }
+  .-top-\[100px\] {
+    top: calc(100px * -1);
+  }
+  .-top-\[130px\] {
+    top: calc(130px * -1);
   }
   .m-auto {
     margin: auto;
@@ -255,6 +273,9 @@
   .justify-between {
     justify-content: space-between;
   }
+  .justify-center {
+    justify-content: center;
+  }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
@@ -266,6 +287,9 @@
   }
   .gap-25 {
     gap: calc(var(--spacing) * 25);
+  }
+  .gap-\[0px\] {
+    gap: 0px;
   }
   .gap-\[10px\] {
     gap: 10px;
@@ -287,6 +311,9 @@
   }
   .gap-\[80px\] {
     gap: 80px;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -354,6 +381,9 @@
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
+  }
+  .bg-white {
+    background-color: var(--color-white);
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -444,6 +474,9 @@
   }
   .text-\[30px\] {
     font-size: 30px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
   }
   .text-\[42px\] {
     font-size: 42px;
