@@ -264,6 +264,9 @@
   .gap-25 {
     gap: calc(var(--spacing) * 25);
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
   .gap-\[20px\] {
     gap: 20px;
   }
@@ -272,6 +275,9 @@
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[80px\] {
+    gap: 80px;
   }
   .gap-\[100px\] {
     gap: 100px;
@@ -352,6 +358,9 @@
   .px-16 {
     padding-inline: calc(var(--spacing) * 16);
   }
+  .px-\[20px\] {
+    padding-inline: 20px;
+  }
   .px-\[40px\] {
     padding-inline: 40px;
   }
@@ -412,11 +421,17 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
   .text-\[26px\] {
     font-size: 26px;
   }
   .text-\[30px\] {
     font-size: 30px;
+  }
+  .text-\[35px\] {
+    font-size: 35px;
   }
   .text-\[40px\] {
     font-size: 40px;
