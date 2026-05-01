@@ -358,6 +358,9 @@
   .p-\[10px\] {
     padding: 10px;
   }
+  .p-\[15px\] {
+    padding: 15px;
+  }
   .p-\[20px\] {
     padding: 20px;
   }
@@ -409,6 +412,12 @@
   .text-center {
     text-align: center;
   }
+  .font-\[bol\] {
+    font-family: bol;
+  }
+  .font-\[bold\] {
+    font-family: bold;
+  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -426,6 +435,9 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[22px\] {
+    font-size: 22px;
   }
   .text-\[25px\] {
     font-size: 25px;
